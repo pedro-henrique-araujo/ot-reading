@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Antigo Testamento</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 15px;
+            font-size: 12px;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top:20px;
+        }
+        .checkbox-group label {
+            background-color: #d35400;
+            color: white;
+            padding: 5px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        a {
+            margin: 5px 0px;
+            padding: 7px 15px;
+            text-decoration: none;
+            background: rgb(0, 140, 255);
+            color:white;
+            border-radius: 2px;;
+        }
+    </style>
+</head>
+<body>
+    <h1>Leitura</h1>
+    <a href="notes.html">Anotações</a>
+    <div class="checkbox-group">
+        <label>
+            <input type="checkbox" id="genesis1_5"> Gênesis 1-5
+        </label>
+        <label>
+            <input type="checkbox" id="genesis6_11"> Gênesis 6-11
+        </label>
+        <label>
+            <input type="checkbox" id="genesis12_16"> Gênesis 12-16
+        </label>
+        <label>
+            <input type="checkbox" id="genesis17_21"> Gênesis 17-21
+        </label>
+        <label>
+            <input type="checkbox" id="genesis22_26"> Gênesis 22-26
+        </label>
+        <label>
+            <input type="checkbox" id="genesis27_31"> Gênesis 27-31
+        </label>
+        <label>
+            <input type="checkbox" id="genesis32_36"> Gênesis 32-36
+        </label>
+        <label>
+            <input type="checkbox" id="genesis37_40"> Gênesis 37-40
+        </label>
+        <label>
+            <input type="checkbox" id="genesis41_45"> Gênesis 41-45
+        </label>
+        <label>
+            <input type="checkbox" id="genesis46_50"> Gênesis 46-50
+        </label>
+        <label>
+            <input type="checkbox" id="exodo1_5"> Êxodo 1-5
+        </label>
+        <label>
+            <input type="checkbox" id="exodo6_10"> Êxodo 6-10
+        </label>
+        <label>
+            <input type="checkbox" id="exodo11_15"> Êxodo 11-15
+        </label>
+        <label>
+            <input type="checkbox" id="exodo16_19"> Êxodo 16-19
+        </label>
+        <label>
+            <input type="checkbox" id="exodo20_23"> Êxodo 20-23
+        </label>
+        <label>
+            <input type="checkbox" id="exodo24_28"> Êxodo 24-28
+        </label>
+        <label>
+            <input type="checkbox" id="exodo29_31"> Êxodo 29-31
+        </label>
+        <label>
+            <input type="checkbox" id="exodo32_34"> Êxodo 32-34
+        </label>
+        <label>
+            <input type="checkbox" id="exodo35_38"> Êxodo 35-38
+        </label>
+        <label>
+            <input type="checkbox" id="exodo39_40"> Êxodo 39-40
+        </label>
+        <label>
+            <input type="checkbox" id="levitico1_4"> Levítico 1-4
+        </label>
+        <label>
+            <input type="checkbox" id="levitico5_9"> Levítico 5-9
+        </label>
+        <label>
+            <input type="checkbox" id="levitico10_15"> Levítico 10-15
+        </label>
+        <label>
+            <input type="checkbox" id="levitico16_19"> Levítico 16-19
+        </label>
+        <label>
+            <input type="checkbox" id="levitico20_23"> Levítico 20-23
+        </label>
+        <label>
+            <input type="checkbox" id="levitico24_27"> Levítico 24-27
+        </label>
+        <label>
+            <input type="checkbox" id="numeros1_4"> Números 1-4
+        </label>
+        <label>
+            <input type="checkbox" id="numeros5_8"> Números 5-8
+        </label>
+        <label>
+            <input type="checkbox" id="numeros9_11"> Números 9-11
+        </label>
+        <label>
+            <input type="checkbox" id="numeros12_14"> Números 12-14
+        </label>
+        <label>
+            <input type="checkbox" id="numeros15_18"> Números 15-18
+        </label>
+        <label>
+            <input type="checkbox" id="numeros19_21"> Números 19-21
+        </label>
+        <label>
+            <input type="checkbox" id="numeros22_25"> Números 22-25
+        </label>
+        <label>
+            <input type="checkbox" id="numeros26_29"> Números 26-29
+        </label>
+        <label>
+            <input type="checkbox" id="numeros30_32"> Números 30-33
+        </label>
+        <label>
+            <input type="checkbox" id="numeros33_36"> Números 34-36
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio1_3"> Dt 1-3
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio4_6"> Dt 4-6
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio7_10"> Dt 7-10
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio11_14"> Dt 11-14
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio15_18"> Dt 15-18
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio19_22"> Dt 19-22
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio23_26"> Dt 23-26
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio27_30"> Dt 27-30
+        </label>
+        <label>
+            <input type="checkbox" id="deuteronomio31_34"> Dt 31-34
+        </label>
+        <label>
+            <input type="checkbox" id="josue1_5"> Josué 1-5
+        </label>
+        <label>
+            <input type="checkbox" id="josue6_9"> Josué 6-9
+        </label>
+        <label>
+            <input type="checkbox" id="josue10_12"> Josué 10-12
+        </label>
+        <label>
+            <input type="checkbox" id="josue13_16"> Josué 13-16
+        </label>
+        <label>
+            <input type="checkbox" id="josue17_20"> Josué 17-20
+        </label>
+        <label>
+            <input type="checkbox" id="josue21_24"> Josué 21-24
+        </label>
+        <label>
+            <input type="checkbox" id="juizes1_5"> Juízes 1-5
+        </label>
+        <label>
+            <input type="checkbox" id="juizes6_9"> Juízes 6-9
+        </label>
+        <label>
+            <input type="checkbox" id="juizes10_12"> Juízes 10-12
+        </label>
+        <label>
+            <input type="checkbox" id="juizes13_16"> Juízes 13-16
+        </label>
+        <label>
+            <input type="checkbox" id="juizes17_21"> Juízes 17-21
+        </label>
+        <label>
+            <input type="checkbox" id="rute"> Rute - TODOS
+        </label>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
